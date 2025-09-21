@@ -1,38 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Gong - Personal Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>你好，我是 [你的名字]</h1>
-        <p>欢迎来到我的个人主页！</p>
+        <img src="https://media.licdn.com/dms/image/D4D03AQE8CwXQwZ9x5w/profile-displayphoto-shrink_400_400/0/1714306722352?e=1723680000&v=beta&t=K0oBIl_c8A7WnGqv2dR1GkW2Do3yD9vZZFQScOcgIco" alt="Jack Gong" class="profile-img">
+        <h1>Jack Gong</h1>
+        <p>Robotics Developer | Automation Engineer | Full-Stack Developer</p>
+        <a href="https://www.linkedin.com/in/jack-gong-071000184" target="_blank" class="linkedin-btn">LinkedIn Profile</a>
     </header>
-
-    <section>
-        <h2>关于我</h2>
-        <p>这里可以写你的自我介绍，例如兴趣、职业或学习经历。</p>
-    </section>
-
-    <section>
-        <h2>作品集</h2>
-        <ul>
-            <li><a href="#">项目 1</a></li>
-            <li><a href="#">项目 2</a></li>
-            <li><a href="#">项目 3</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>联系方式</h2>
-        <p>邮箱：youremail@example.com</p>
-        <p>GitHub：<a href="https://github.com/你的用户名" target="_blank">点击访问</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 [你的名字] | 由 GitHub Pages 提供</p>
-    </footer>
+    <div class="container">
+        <section class="section about">
+            <h2>About Me</h2>
+            <p>
+                Experienced robotics and automation developer with a strong background in software engineering, embedded systems, and full-stack web development. Skilled in Python, C++, JavaScript, ROS, and project management. Passionate about open-source and active in the GitHub community.
+            </p>
+        </section>
+        <section class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li>M.S. in Robotics & Automation, Xi'an Jiaotong University</li>
+                <li>B.S. in Automation, Xi'an Jiaotong University</li>
+            </ul>
+        </section>
+        <section class="section experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>JAKA Robotics | Robotics Software Engineer | 2022 - Present</li>
+                <li>Xi'an Jiaotong University Robotics Innovation Team | Core Developer | 2019 - 2022</li>
+            </ul>
+        </section>
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Robotics (ROS, control algorithms, computer vision, SLAM)</li>
+                <li>Embedded Systems (STM32, ARM, C/C++)</li>
+                <li>Web Development (JavaScript, HTML, CSS, React, Node.js)</li>
+                <li>Full-Stack Python Development</li>
+                <li>Git / GitHub / CI/CD</li>
+            </ul>
+        </section>
+        <section class="section projects">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li><a href="https://github.com/JAKARobotics/Bock" target="_blank">Bock</a> - Open-source robotics software platform</li>
+                <li><a href="https://github.com/jackgong666/jack-website" target="_blank">Jack Website</a> - Personal website project</li>
+                <li><a href="https://github.com/jackgong666/jackgong666.github.io" target="_blank">Personal Homepage (GitHub Pages)</a></li>
+            </ul>
+        </section>
+        <section class="section contact">
+            <h2>Contact</h2>
+            <p>
+                GitHub: <a href="https://github.com/jackgong666" target="_blank">jackgong666</a><br>
+                Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </p>
+        </section>
+    </div>
 </body>
 </html>
